@@ -23,6 +23,7 @@ session_start();
   <body>
 	  <style>img{max-width:50%;}</style>
 	  <h2>Escape Maze</h2>
+	  <p>Hey! The source is <a href="https://github.com/weeklyd3/escape-maze/tree/master">on GitHub</a>.</p>
 	  <form action="index.php" method="post">
 <?php 
 $place = isset($_POST['level']) ? $_POST['level'] : 1;
